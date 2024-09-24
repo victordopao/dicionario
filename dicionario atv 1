@@ -1,0 +1,12 @@
+import random
+
+aluno = [
+  {"nome": "João", "idade": 20, "sexo": "M", "nacionalidade":"Brasileiro","turma":"3D/S"},
+  {"nome": "Maria", "idade": 22, "sexo": "F", "nacionalidade":"Brasileira" ,"turma":"3D/S"},
+  {"nome": "Pedro", "idade": 19, "sexo": "M", "nacionalidade":"Argentino","turma":"3D/S"},
+  {"nome": "Ana", "idade": 21, "sexo": "F", "nacionalidade":"Brasileira","turma":"3D/S"},
+  {"nome": "Carlos", "idade": 23, "sexo": "M", "nacionalidade":"Brasileiro","turma":"3D/S"}
+]
+
+a = random.sample(aluno, 3)
+print(a)
